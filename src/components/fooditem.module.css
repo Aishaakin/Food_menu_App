@@ -1,0 +1,39 @@
+.itemContainer {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.itemImage {
+max-width: 100%;
+    height: auto;
+}
+.itemContent {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+   
+}
+.itemName {
+ color: #662d91;
+ font-weight: 300px;
+ font-size: 1em;
+}
+.itemButton {
+    background-color: #DDA0DD;
+    color: black;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 30px;
+    font-size: 14px;
+
+}
+.buttonContainer {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
