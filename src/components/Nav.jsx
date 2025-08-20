@@ -1,4 +1,4 @@
 import styles from "./nav.module.css";
 export default function Nav() {
-    return <div>🍔 🍨 Aisha FoodApp </div>
+    return <div className={styles.navbar}>🍔 🍨 Aisha Food App </div>
 }
